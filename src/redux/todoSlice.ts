@@ -1,9 +1,8 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Todo } from "../models/Todo";
 import { v4 as uuidv4 } from "uuid";
-import { stat } from "fs";
 
-const initialState = [] as Todo[];// set wha the state is at the start of the app
+const initialState = [] as Todo[];// set what the state is at the start of the app
 
 const todoSlice = createSlice({// builtinto redux toolkit function which takes an object as a parameter with 3 required fields
     name:'todos',// name tehe generated action types from createSlice

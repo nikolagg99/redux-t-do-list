@@ -82,6 +82,20 @@ h3 {
     float: right;
 }
 
+.status-button {
+    background-color: azure;
+    width: 48%;
+    border: none;
+    margin: 1%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
+}
+
+.status-all:focus, .status-completed:focus {
+    background-color: rgb(167, 245, 245);
+}
+
 .empty-alert {
     text-align: center;
     color: red;
