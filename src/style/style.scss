@@ -1,0 +1,89 @@
+$item-width: 70%;
+$headings-color:  rgb(100, 96, 96);;
+$headings-decoration: underline;
+h1{
+    text-align: center;
+    color: $headings-color;
+    font-size: 3em;
+    text-decoration: $headings-decoration;
+}
+
+h3 {
+    text-align: center;
+    color: $headings-color;
+    text-decoration: $headings-decoration;
+    font-size: 1.5em;
+}
+
+.todo-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px dotted;
+    padding: 0;
+    margin: 0;
+}
+
+.check, .delete {
+    width: 19%;
+}
+
+.description{
+    padding: 3%;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.components-container {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 10%;
+}
+
+.add-todo-item {
+    width: $item-width;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.todo-list-container {
+    width: 100%;
+    margin-top: 5%;
+    padding: 1em;
+}
+
+.todo-input {
+    padding: 0.5em;
+    background-color: azure;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    width: 89%;
+}
+
+.add-button {
+    background-color: azure;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 40%;
+}
+
+.delete-button {
+    float: right;
+}
+
+.empty-alert {
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+}
